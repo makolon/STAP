@@ -19,7 +19,7 @@ function generate_data {
     args="${args} --config.symbolic-action-type ${SYMBOLIC_ACTION_TYPE}"
     args="${args} --config.seed ${SEED}"
     
-    PYTHON_CMD="python scripts/data/generate_primitive_dataset.py ${args}"
+    PYTHON_CMD="python3 scripts/data/generate_primitive_dataset.py ${args}"
     run_cmd
 }
 

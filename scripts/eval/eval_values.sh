@@ -42,7 +42,7 @@ function eval_value {
         args="${args} --overwrite"
     fi
 
-    CMD="python scripts/eval/eval_values.py ${args}"
+    CMD="python3 scripts/eval/eval_values.py ${args}"
     run_cmd
 }
 

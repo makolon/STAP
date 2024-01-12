@@ -27,7 +27,7 @@ function train_scod {
         args="${args} --path ${SCOD_OUTPUT_PATH}"
     fi
 
-    CMD="python scripts/train/train_scod.py ${args}"
+    CMD="python3 scripts/train/train_scod.py ${args}"
     run_cmd
 }
 

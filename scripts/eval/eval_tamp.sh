@@ -40,7 +40,7 @@ function eval_tamp {
         args="${args} --path ${PLANNER_OUTPUT_PATH}"
         args="${args} --verbose 0"
     fi
-    CMD="python scripts/eval/eval_tamp.py ${args}"
+    CMD="python3 scripts/eval/eval_tamp.py ${args}"
     run_cmd
 }
 

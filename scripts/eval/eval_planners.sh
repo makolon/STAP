@@ -39,7 +39,7 @@ function eval_planner {
         args="${args} --path ${PLANNER_OUTPUT_PATH}"
         args="${args} --verbose 1"
     fi
-    CMD="python scripts/eval/eval_planners.py ${args}"
+    CMD="python3 scripts/eval/eval_planners.py ${args}"
     run_cmd
 }
 

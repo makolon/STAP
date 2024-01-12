@@ -35,7 +35,7 @@ function train_baseline {
         args="${args} --path ${PLANNER_OUTPUT_PATH}"
     fi
 
-    CMD="python scripts/train/train_baselines.py ${args}"
+    CMD="python3 scripts/train/train_baselines.py ${args}"
     run_cmd
 }
 

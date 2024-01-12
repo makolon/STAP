@@ -33,7 +33,7 @@ function train_dynamics {
         args="${args} --path ${DYNAMICS_OUTPUT_PATH}"
     fi
 
-    CMD="python scripts/train/train_dynamics.py ${args}"
+    CMD="python3 scripts/train/train_dynamics.py ${args}"
     run_cmd
 }
 

@@ -39,7 +39,7 @@ function train_agent {
         args="${args} --eval-recording-path ${EVAL_RECORDING_PATH}"
     fi
 
-    CMD="python scripts/train/train_agent.py ${args}"
+    CMD="python3 scripts/train/train_agent.py ${args}"
     run_cmd
 }
 

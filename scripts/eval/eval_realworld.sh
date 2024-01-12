@@ -20,7 +20,7 @@ function eval_realworld {
     fi
     args="${args} ${ENV_KWARGS}"
     args="${args} --path ${PLANNER_OUTPUT_PATH}"
-    CMD="python scripts/eval/eval_realworld.py ${args}"
+    CMD="python3 scripts/eval/eval_realworld.py ${args}"
     ${CMD}
 }
 

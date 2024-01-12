@@ -24,11 +24,11 @@ function train_autoencoder {
     args="${args} --seed 0"
     # args="${args} --overwrite"
 
-    CMD="python scripts/train/train_autoencoder.py ${args}"
+    CMD="python3 scripts/train/train_autoencoder.py ${args}"
     run_cmd
 }
 
-EXP_NAME="20220513/vae_conv128_inv"
+EXP_NAME="20240112/vae_conv128_inv"
 TRAINER_CONFIG="configs/pybox2d/trainers/autoencoder.yaml"
 ENCODER_CONFIG="configs/pybox2d/encoders/vae.yaml"
 POLICY_CHECKPOINTS=(

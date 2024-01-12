@@ -14,7 +14,7 @@ function visualize_results {
     if [ ! -z "${FIGURE_NAME}" ]; then
         args="${args} --name ${FIGURE_NAME}"
     fi
-    CMD="python scripts/visualize/generate_planning_figure.py ${args}"
+    CMD="python3 scripts/visualize/generate_planning_figure.py ${args}"
     run_cmd
 }
 

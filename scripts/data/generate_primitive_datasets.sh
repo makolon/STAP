@@ -22,7 +22,7 @@ function generate_data {
     args="${args} --config.symbolic-action-type ${SYMBOLIC_ACTION_TYPE}"
     args="${args} --config.seed ${SEED}"
     
-    CMD="python scripts/data/generate_primitive_dataset.py ${args}"    
+    CMD="python3 scripts/data/generate_primitive_dataset.py ${args}"
     run_cmd
 }
 
