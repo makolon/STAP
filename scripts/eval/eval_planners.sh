@@ -144,7 +144,7 @@ PLANNER_OUTPUT_ROOT="${output_path}/${exp_name}"
 PRIMITIVES=("pick" "place" "pull" "push")
 
 # Uncomment to evaluate planners with RL agents (scripts/train/train_agents.sh)
-CHECKPOINT="official_model"
+CHECKPOINT="best_model"
 POLICY_INPUT_PATH="${input_path}/agents_rl"
 DYNAMICS_INPUT_PATH="${input_path}/dynamics_rl/pick_place_pull_push_dynamics"
 run_planners

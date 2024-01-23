@@ -119,7 +119,7 @@ PRIMITIVES=(
     "pull"
     "push"
 )
-CHECKPOINT="official_model"
+CHECKPOINT="best_model"
 POLICY_INPUT_PATH="${input_path}/agents_rl"
 DYNAMICS_INPUT_PATH="${input_path}/dynamics_rl/pick_place_pull_push_dynamics"
 SCOD_INPUT_PATH="${input_path}/scod_rl"

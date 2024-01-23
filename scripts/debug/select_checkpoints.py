@@ -5,15 +5,15 @@ import shutil
 import argparse
 
 
-INPUT_PATH = "models"
+INPUT_PATH = "scripts/models"
 PRIMITIVE_CHECKPOINTS = {
-    "pick": {"path": "primitives_light_mse", "checkpoint": "ckpt_model_100000"},
-    "place": {"path": "primitives_light_mse", "checkpoint": "ckpt_model_200000"},
-    "pull": {"path": "primitives_light_mse", "checkpoint": "ckpt_model_150000"},
-    "push": {"path": "primitives_light_mse", "checkpoint": "ckpt_model_150000"},
+    "pick": {"path": "agents_rl", "checkpoint": "ckpt_model_100000"},
+    "place": {"path": "agents_rl", "checkpoint": "ckpt_model_200000"},
+    "pull": {"path": "agents_rl", "checkpoint": "ckpt_model_150000"},
+    "push": {"path": "agents_rl", "checkpoint": "ckpt_model_150000"},
 }
 DYNAMICS_CHECKPOINT = {
-    "path": "dynamics/pick_place_pull_push_dynamics",
+    "path": "dynamics_rl/pick_place_pull_push_dynamics",
     "checkpoint": "best_model",
 }
 
